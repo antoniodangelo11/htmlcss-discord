@@ -135,12 +135,7 @@ section {
     margin-inline: auto;
 }
 
-.section-feature .title-mini {
-    font-size: 2.5rem;
-    padding-bottom: 1rem;
-}
-
-.section-feature .description {
+.text-right {
     font-size: 1.5rem;
 }
 
@@ -161,27 +156,17 @@ section {
     margin-inline: auto;
 }
 
-.text {
-    text-align: center;
-}
-
-.text > h2 {
+.container > h2 {
     font-size: 2.5rem;
     padding-bottom: 1rem;
 }
 
-.text > p {
+.container > p {
+    text-align: center;
     font-size: 1rem;
 }
 
-.bkg-stars {
-    background-image: url(../img/stars.svg);
-    background-size: cover;
-    width: 200px;
-    height: 20px;
-}
-
-.btn-mac > button {
+.btn-mac {
     background-color: #7289DA;
     color: rgb(255, 255, 255);
     font-family: 'Whitney', sans-serif;
