@@ -31,38 +31,28 @@ html {
 }
 
 .main-list {
+    justify-content: space-between;
+    align-items: center;
     height: 100%;
+    width: 1000px;
     display: flex;
     list-style: none;
 }
 
-.main-list .logo {
-    align-items: center;
-    display: flex;
-    flex-grow: 1;
+.main-list .logo > img {
+    flex: 1 0 auto;
 }
 
-.main-list a {
+.main-list li a {
     color: rgb(255, 255, 255);
-    display: flex;
-    align-items: center;
-    height: 100%;
     padding-inline: 1.5rem;
     text-decoration: none;
-}
-
-.login {
-    display: flex;
-    align-items: center;
-    height: 100%;
-    padding-inline: 1.5rem;
 }
 
 .btn-login {
     font-family: 'Whitney', sans-serif;
     background-color: rgb(255, 255, 255);
     border: none;
-    text-align: center;
     font-size: 16px;
     padding: 10px 15px;
     border-radius: 15px;
@@ -195,6 +185,13 @@ footer {
 	color: rgb(255, 255, 255);
 }
 
+.footer-top {
+	display: flex;
+	margin-bottom: 2rem;
+	padding-bottom: 2rem;
+	border-bottom: 2px solid  #7289DA;
+}
+
 .column-socials {
 	flex: 1 0 30%;
 }
@@ -227,13 +224,6 @@ li {
 	list-style: none;
 }
 
-.footer-top {
-	display: flex;
-	margin-bottom: 2rem;
-	padding-bottom: 2rem;
-	border-bottom: 2px solid  #7289DA;
-}
-
 .flag-it {
     height: 1rem;
 }
@@ -253,4 +243,8 @@ li {
     font-size: 20px;
     padding: 10px 15px;
     border-radius: 15px;
+}
+
+.bar-long {
+
 }
