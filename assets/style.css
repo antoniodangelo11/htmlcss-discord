@@ -13,7 +13,7 @@ html {
 }
 
 .container {
-    max-width: 1200px;
+    max-width: 1000px;
     margin-inline: auto;
     padding-inline: 1rem;
 }
@@ -130,25 +130,20 @@ section {
 .section-feature .container {
     display: flex;
     justify-content: center;
-    max-width: 900px;
+    align-items: center;
+    max-width: 1000px;
     margin-inline: auto;
 }
 
-.section-feature .container > h2 {
+.section-feature .title-mini {
     font-size: 2.5rem;
+    padding-bottom: 1rem;
 }
 
-.section-feature .container > p {
-    
+.section-feature .description {
+   font-size: 1.5rem;
 }
 
-.section-feature .small-img {
-    flex: 0 1 60%;
-}
-
-.section-feature .text-title-mini {
-    flex: 0 1 40%;
-}
 
 /* DA FARE DOPO */
 

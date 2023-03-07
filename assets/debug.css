@@ -17,19 +17,19 @@
     min-height: 250px;
 } */
 
-/*MAIN STRUCTURE*/
+/* MAIN STRUCTURE */
 
 /* .section-feature .small-img {
     background-color: #EE82EE;
     min-height: 250px;
-} */
+} 
 
-/* .section-feature .text-title-mini {
+.section-feature .title-mini {
     background-color: #00008B;
     min-height: 250px;
-} */
+}
 
-/* .section-full .container {
+.section-feature .container {
     background-color: rgb(0, 150, 57);
     min-height: 500px;
 } */
