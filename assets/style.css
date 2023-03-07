@@ -70,29 +70,35 @@ html {
 
 .jumbo {
     background-image: url(../img/jumbo.png);
-    height: 500px;
+    background-size: cover;
+    height: 650px;
     width: 100%;
-    padding-top: 3rem;
+    padding-top: 2rem;
     padding-bottom: 4rem;
 }
 
 .jumbo .content {
     min-height: 250px;
-    max-width: 800px;
+    max-width: 900px;
     margin-inline: auto;
     padding-inline: 1rem;
+    padding-top: 100px;
 }
 
 .jumbo .content h1 {
     color: rgb(255, 255, 255);
     text-align: center;
+    font-size: 2.5rem;
+    line-height: 2;
+    font-weight: 400;
 }
 
 .jumbo .content p {
     color: rgb(255, 255, 255);
     text-align: center;
-    font-size: large;
+    font-size: 1.5rem;
     padding-bottom: 2rem;
+    line-height: 1.5;
 }
 
 .btn-jumbo {
