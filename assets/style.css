@@ -9,7 +9,7 @@
 /*GENERAL SETTINGS*/
 
 html {
-    font-family: 'Whitney', sans-serif;;
+    font-family: 'Whitney', sans-serif;
 }
 
 .container {
@@ -59,10 +59,6 @@ html {
     text-decoration: none;
 }
 
-.main-list a:hover { /*DA FARE*/
-    background-color: none;
-}
-
 .login {
     display: flex;
     align-items: center;
@@ -71,8 +67,11 @@ html {
 }
 
 .btn-login {
+    font-family: 'Whitney', sans-serif;
     background-color: rgb(255, 255, 255);
     border: none;
+    text-align: center;
+    font-size: 16px;
     padding: 10px 15px;
     border-radius: 15px;
 }
