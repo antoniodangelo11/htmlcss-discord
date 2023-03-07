@@ -16,3 +16,43 @@
     background-color: #EE82EE;
     min-height: 250px;
 } */
+
+/*MAIN STRUCTURE*/
+
+/* .section-feature .small-img {
+    background-color: #EE82EE;
+    min-height: 250px;
+} */
+
+.section-feature .text-title-mini {
+    background-color: #00008B;
+    min-height: 250px;
+}
+
+.section-full .container {
+    background-color: rgb(0, 150, 57);
+    min-height: 500px;
+}
+
+/* FOOTER STRUCTURE
+
+footer .footer-top {
+    display: flex;
+}
+
+footer .footer-column {
+    min-height: 300px;
+}
+
+footer .column-socials {
+    background-color: pink;
+}
+
+footer .column-links {
+    background-color: darkmagenta;
+}
+
+footer .footer-bottom {
+    background-color: gold;
+    min-height: 50px;
+} */

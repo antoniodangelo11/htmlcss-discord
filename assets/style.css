@@ -71,7 +71,7 @@ html {
 .jumbo {
     background-image: url(../img/jumbo.png);
     background-size: cover;
-    height: 650px;
+    background-position: center;
     width: 100%;
 }
 
@@ -80,7 +80,8 @@ html {
     max-width: 900px;
     margin-inline: auto;
     padding-inline: 1rem;
-    padding-top: 100px;
+    padding-top: 6rem;
+    padding-bottom: 8rem;
 }
 
 .jumbo .content h1 {
@@ -129,6 +130,13 @@ section {
 .section-feature .container { 
     display: flex;
 }
+
+.section-feature .container p {
+   
+}
+
+
+
 
 .section-feature.reverse .container {
     flex-direction: row-reverse;
