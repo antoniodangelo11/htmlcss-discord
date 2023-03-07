@@ -127,17 +127,28 @@ section {
     padding-bottom: 3rem;
 }
 
-.section-feature .container { 
+.section-feature .container {
     display: flex;
+    justify-content: center;
+    max-width: 900px;
     margin-inline: auto;
 }
 
 .section-feature .container > h2 {
-   font-size: 3.5rem;
+    font-size: 2.5rem;
 }
 
+.section-feature .container > p {
+    
+}
 
+.section-feature .small-img {
+    flex: 0 1 60%;
+}
 
+.section-feature .text-title-mini {
+    flex: 0 1 40%;
+}
 
 /* DA FARE DOPO */
 
@@ -149,10 +160,31 @@ section {
     background-color: lightgray; 
 }
 
-.section-feature .small-img {
-    flex: 0 1 60%;
+/*START FOOTER*/
+
+/* footer {
+    padding-top: 4rem;
+    padding-bottom: 2rem;
+    background-color: black;
 }
 
-.section-feature .text-title-mini {
-    flex: 0 1 40%;
+footer .footer-top {
+    display: flex;
+    padding-bottom: 2rem;
+    margin-bottom: 2rem;
+    border-bottom: 3px solid rgb(255, 255, 255);
 }
+
+footer .column-socials {
+    flex: 0 0 40%;
+}
+
+footer .column-links {
+    border: 1px dashed rgb(255, 255, 255);
+    flex: 0 0 15%;
+}
+
+footer .footer-bottom {
+    display: flex;
+    justify-content: space-between;
+} */
