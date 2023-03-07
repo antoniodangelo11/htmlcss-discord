@@ -207,8 +207,12 @@ h3, h4, li {
 	margin-bottom: 1rem;
 }
 
-h3, h4 {
-	color: #7289DA;
+.footer-column > h3 {
+    color: #7289DA;
+}
+
+h4 {
+    color: #7289DA;
 }
 
 h3 {
