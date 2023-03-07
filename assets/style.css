@@ -73,8 +73,6 @@ html {
     background-size: cover;
     height: 650px;
     width: 100%;
-    padding-top: 2rem;
-    padding-bottom: 4rem;
 }
 
 .jumbo .content {
@@ -119,4 +117,31 @@ html {
 .btn-jumbo-dark {
     background-color: rgb(0, 0, 0);
     color: rgb(255, 255, 255);
+}
+
+/*START MAIN*/
+
+section {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.section-feature .container { 
+    display: flex;
+}
+
+.section-feature.reverse .container {
+    flex-direction: row-reverse;
+}
+
+.bkg-gray {
+    background-color: lightgray; 
+}
+
+.section-feature .small-img {
+    flex: 0 1 60%;
+}
+
+.section-feature .text-title-mini {
+    flex: 0 1 40%;
 }
