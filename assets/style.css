@@ -21,6 +21,7 @@ html {
 /*START HEADER*/
 
 .navbar {
+    display: flex;
     background-color: #255EE9;
     height: 4rem;
 }
@@ -50,7 +51,7 @@ html {
 }
 
 .main-list a {
-    color: #FFFFFF;
+    color: rgb(255, 255, 255);
     display: flex;
     align-items: center;
     height: 100%;
@@ -68,6 +69,13 @@ html {
     align-items: center;
     height: 100%;
     padding-inline: 1.5rem;
+}
+
+.btn-login {
+    background-color: rgb(255, 255, 255);
+    border: none;
+    padding: 10px 15px;
+    border-radius: 15px;
 }
 
 .jumbo .content {
