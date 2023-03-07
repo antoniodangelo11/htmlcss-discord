@@ -129,14 +129,17 @@ section {
 
 .section-feature .container { 
     display: flex;
+    margin-inline: auto;
 }
 
-.section-feature .container p {
-   
+.section-feature .container > h2 {
+   font-size: 3.5rem;
 }
 
 
 
+
+/* DA FARE DOPO */
 
 .section-feature.reverse .container {
     flex-direction: row-reverse;
