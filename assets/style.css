@@ -29,6 +29,16 @@ html {
     white-space: nowrap;
 }
 
+.wave {
+    width: 100%;
+    display: block;
+    opacity: 17%;
+}
+
+.wave.bottom {
+    transform: rotateX(180deg) rotateY(180deg);
+}
+
 /*START HEADER*/
 
 .navbar {
@@ -209,6 +219,7 @@ li {
 }
 
 .footer-column .socials > i {
+    font-size: 1.5em;
     padding-right: .5rem;
 }
 
