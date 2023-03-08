@@ -208,6 +208,10 @@ li {
     align-items: center;
 }
 
+.footer-column .socials > i {
+    padding-right: .5rem;
+}
+
 .btn-footer {
     background-color: #7289DA;
     color: rgb(255, 255, 255);
