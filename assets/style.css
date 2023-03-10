@@ -29,6 +29,10 @@ html {
     white-space: nowrap;
 }
 
+.btn:hover {
+    cursor: pointer;
+}
+
 .wave {
     width: 100%;
     display: block;
