@@ -42,30 +42,25 @@ html {
 /*START HEADER*/
 
 .navbar {
-    display: flex;
     background-color: #255EE9;
     height: 4rem;
 }
 
-.navbar .container {
+.main-list .container {
     height: 100%;
 }
 
 .main-list {
-    align-items: center;
-    height: 100%;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
     list-style: none;
-    white-space: nowrap;
+    height: 100%;
 }
 
-.main-list .logo > img {
-    flex: 1 0 auto;
-}
-
-.main-list li a {
+.nav-center > a {
+    padding-inline: 1rem;
     color: rgb(255, 255, 255);
-    padding-inline: 1.5rem;
     text-decoration: none;
 }
 
