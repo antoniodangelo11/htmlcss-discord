@@ -123,10 +123,14 @@ section {
     margin-inline: auto;
 }
 
-.text-right {
+.box-right {
     display: flex;
     flex-direction: column;
     font-size: 1.5rem;
+}
+
+.box-right > h2 {
+    padding-bottom: 1rem;
 }
 
 .section-feature.reverse .container {
