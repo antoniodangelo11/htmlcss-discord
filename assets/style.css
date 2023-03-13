@@ -123,10 +123,11 @@ section {
     margin-inline: auto;
 }
 
-/* .box-left > img {
-   object-fit: cover;
-   min-width: 10%;
-} */
+.box-left > img {
+    display: block;
+    object-fit: cover;
+    min-width: 10%;
+}
 
 .box-right {
     display: flex;
